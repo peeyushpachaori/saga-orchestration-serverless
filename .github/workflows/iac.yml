@@ -1,10 +1,6 @@
 name: 'TerraformCI'
 
-on:
-  push:
-    branches: [ main ]
-    paths:
-      - iac/*
+on: workflow_dispatch
 
 jobs:
   terraform:
