@@ -2,6 +2,7 @@
 variable "sub" {
   type        = string
   description = "Subscription that will host the infrastructure"
+  default = "4c5d64ad-2a53-4067-9898-ac32d4b31b98"
 }
 
 variable "client_secret" {
